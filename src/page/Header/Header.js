@@ -8,7 +8,7 @@ export class Header extends React.Component {
     return (
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/home">Booking Travel</Navbar.Brand>
+          <Navbar.Brand href="/">Booking Travel</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
