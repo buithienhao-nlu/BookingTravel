@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import SignInSide from "./page/SignIn/SignIn";
 import SignUp from "./page/SignUp/SignUp";
+import SignIn from "./page/SignIn/SignIn";
 import { Home } from "./page/Home/Home";
 import { Header } from "./page/Header/Header";
 import {
@@ -13,7 +14,7 @@ import {
   Navigate,
   Outlet,
 } from "react-router-dom";
-import SignIn from "./page/SignIn/SignIn";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const routing = (
