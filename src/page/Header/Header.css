@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.link:hover {
+  color: brown;
+  background-color: #fff;
+  font-weight: 600;
+}
