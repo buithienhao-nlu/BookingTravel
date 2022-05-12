@@ -6,7 +6,7 @@ import "./Header.css";
 export class Header extends React.Component {
   render() {
     return (
-      <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">Booking Travel</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

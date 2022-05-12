@@ -1,2 +1,9 @@
 #home-container {
 }
+
+#home-search {
+  height: 100px;
+  background-color: #040e27;
+  color: #fff;
+  padding-top: 35px;
+}
