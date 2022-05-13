@@ -8,6 +8,7 @@ import { Header } from "./page/Header/Header";
 import { About } from "./page/About/About";
 import { Contact } from "./page/Contact/Contact";
 import { Footer } from "./page/Footer/Footer";
+import { Destination } from "./page/Destination/Destination";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,6 +20,7 @@ const routing = (
     {/* <Home /> */}
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="destination" element={<Destination />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="signin" element={<SignIn />} />
@@ -32,6 +34,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <Home />
+    <Destination />
     <About />
     <Contact />
     <SignIn />
