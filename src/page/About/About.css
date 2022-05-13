@@ -1,0 +1,30 @@
+.empty {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#outstory {
+  width: 70%;
+}
+
+#review {
+}
+
+.img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.card-gr {
+  /* border: none; */
+}
+
+#our {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  text-align: end;
+  justify-content: end;
+}
