@@ -66,7 +66,7 @@ export class Home extends React.Component {
           <Col md={3}>
             <h4>Where you want to go?</h4>
           </Col>
-          <Col md={3}>
+          <Col md={3} id="input">
             <Form.Control type="text" placeholder="Where to go?" />
           </Col>
           <Col md={2}>
@@ -135,7 +135,7 @@ export class Home extends React.Component {
             <Form.Control type="text" placeholder="Your email" />
           </Col>
           <Col md={2}>
-            <Button variant="success" id="btn-search">
+            <Button variant="success" id="btn-subscrice">
               Subscribe
             </Button>{" "}
           </Col>

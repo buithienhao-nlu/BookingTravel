@@ -13,7 +13,7 @@
 }
 
 #btn-search {
-  width: 150px;
+  width: 200px;
 }
 
 #popular-dest,
@@ -41,10 +41,22 @@
   padding-top: 20px;
 }
 
+#btn-subscrice {
+  width: 200px;
+}
+
 #video {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
   text-align: center;
   background-color: #040e27;
+}
+
+#input {
+  width: 350px;
+}
+
+#dropdown-basic {
+  width: 200px;
 }
