@@ -9,3 +9,11 @@
   background-color: #fff;
   font-weight: 600;
 }
+
+.link-home {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}

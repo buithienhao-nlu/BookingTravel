@@ -8,11 +8,13 @@ export class Header extends React.Component {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">Booking Travel</Navbar.Brand>
+          <Link className="link-home" to="/">
+            Booking Travel
+          </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link className="link" to="/home">
+              <Link className="link" to="/">
                 Home
               </Link>
               <Link className="link" to="/destination">
