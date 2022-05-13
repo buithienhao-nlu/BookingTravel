@@ -7,6 +7,7 @@ import { Home } from "./page/Home/Home";
 import { Header } from "./page/Header/Header";
 import { About } from "./page/About/About";
 import { Contact } from "./page/Contact/Contact";
+import { Footer } from "./page/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -17,12 +18,13 @@ const routing = (
     <Header />
     {/* <Home /> */}
     <Routes>
-      <Route path="home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="signin" element={<SignIn />} />
       <Route path="signup" element={<SignUp />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
 );
 const page = <div className="ract-root">{routing}</div>;
@@ -34,6 +36,7 @@ root.render(
     <Contact />
     <SignIn />
     <SignUp />
+    <Footer />
   </React.StrictMode>
 );
 
